@@ -10,8 +10,8 @@
 <body>
     <div class="container-1">
         <div class="busca-cep">
-            <h2>Busca CEP Api</h2>
-            <input id="cep" type="text" placeholder="Digite o CEP">
+            <h2>Busca CEP API</h2>
+            <input id="buscaCep" type="text" placeholder="Digite o CEP">
             <button type="submit">Buscar</button>
         </div>
         <div class="logo">
@@ -20,13 +20,12 @@
         </div>
     </div>
     <div class="results">
-        <p id="lol"></p>
-        <p id="logradouro"></p>
-        <p id="complemento"></p>
-        <p id="bairro"></p>
-        <p id="localidade"></p>
-        <p id="uf"></p>
-        <p id="ddd"></p>
+        <div id="cep"></div>
+        <div id="logradouro"></div>
+        <div id="bairro"></div>
+        <div id="localidade"></div>
+        <div id="uf"></div>
+        <div id="numero"></div>
     </div>
 
     <script src="/js/api.js"></script>
