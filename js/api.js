@@ -1,5 +1,5 @@
 
-let botao = document.querySelector('button');
+let botao = document.querySelector('#buscar');
 
 botao.addEventListener('click', function() {
 

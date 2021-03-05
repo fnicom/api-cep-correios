@@ -8,15 +8,16 @@
     <title>Api CEP Correios</title>
 </head>
 <body>
+    <div class="container">
     <div class="container-1">
+        <div class="logo">
+            <img src="/api-cep-correios/icon-256.png" alt="Correios">
+        </div>
         <div class="busca-cep">
             <h2>Busca CEP API</h2>
             <input id="buscaCep" type="text" placeholder="Digite o CEP">
-            <button type="submit">Buscar</button>
-        </div>
-        <div class="logo">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <img src="" alt="Correios">
+            <!-- <button type="submit">Buscar</button> -->
+            <a id="buscar" href="#" class="myButton">Buscar CEP</a>
         </div>
     </div>
     <div class="results">
@@ -27,8 +28,9 @@
         <div id="uf"></div>
         <div id="numero"></div>
     </div>
+</div>
 
-    <script src="/js/api.js"></script>
+    <script src="/api-cep-correios/js/api.js"></script>
 </body>
 </html>
 

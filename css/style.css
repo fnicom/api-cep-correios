@@ -1,29 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'DotGothic16', sans-serif;   
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'DotGothic16', sans-serif;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
 }
 
-.busca-cep {
-    border: 1px solid green;
+.busca-cep h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.busca-cep input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 115px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  border: 2px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.myButton:hover {
+  background-color: #e9e9e9;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
 }
 
 .logo {
-    border: 1px solid red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.logo img {
+  width: 120px;
+  margin-top: 10px;
 }
 
 .results {
-    border: 1px solid blueviolet;
+  color: #ffff;
+  margin-left: 30%;
 }
+
+.container {
+  margin-bottom: 100px;
+  width: 400px;
+  height: 410px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#221b56), color-stop(#272667), color-stop(#2b3279), color-stop(#2d3e8b), color-stop(#2e4b9e), color-stop(#2054a2), color-stop(#115ca5), color-stop(#0064a7), color-stop(#006695), color-stop(#00657f), color-stop(#0e616a), to(#315c59));
+  background-image: linear-gradient(to right top, #221b56, #272667, #2b3279, #2d3e8b, #2e4b9e, #2054a2, #115ca5, #0064a7, #006695, #00657f, #0e616a, #315c59);
+}
+/*# sourceMappingURL=style.css.map */
